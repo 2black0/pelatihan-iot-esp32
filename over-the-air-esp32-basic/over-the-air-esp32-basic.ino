@@ -4,7 +4,7 @@
 #include <ESPAsyncWebServer.h>
 #include <AsyncElegantOTA.h>
 
-const char* ssid = "wifi-name";
+const char* ssid = "wifi-ssid";
 const char* password = "wifi-password";
 
 AsyncWebServer server(80);

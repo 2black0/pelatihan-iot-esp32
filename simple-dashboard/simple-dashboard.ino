@@ -4,8 +4,8 @@
 #include <ESPAsyncWebServer.h>
 #include <ESPDash.h>
 
-const char* ssid = "Nama_Wifi";
-const char* password = "Pass_Wifi";
+const char* ssid = "wifi-ssid";
+const char* password = "wifi-password";
 
 AsyncWebServer server(80);
 ESPDash dashboard(&server); 

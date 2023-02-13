@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "wifi_name";
-const char* password = "wifi_password";
+const char* ssid = "wifi-ssid";
+const char* password = "wifi-password";
 
 String serverName = "url_from_google_script";
 

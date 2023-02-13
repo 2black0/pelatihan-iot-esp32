@@ -1,9 +1,10 @@
 #include "CTBot.h"
 CTBot myBot;
 
-String ssid = "Nama_Wifi";
-String pass = "Pass_Wifi";
-String token = "Token";
+const char* ssid = "wifi-ssid";
+const char* password = "wifi-password";
+
+String token = "token-get-from-telegram-botfather";
 
 uint8_t led = BUILTIN_LED;				
 int sensorA = 25;

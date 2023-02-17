@@ -29,11 +29,11 @@ const char index_html[] PROGMEM = R"rawliteral(
   h2{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #143642;
+    color: #41144d;
   }
   .topnav {
     overflow: hidden;
-    background-color: #143642;
+    background-color: #41144d;
   }
   body {
     margin: 0;
@@ -55,7 +55,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     text-align: center;
     outline: none;
     color: #fff;
-    background-color: #0f8b8d;
+    background-color: #5f0f8d;
     border: none;
     border-radius: 5px;
     -webkit-touch-callout: none;
@@ -68,7 +68,7 @@ const char index_html[] PROGMEM = R"rawliteral(
    }
    /*.button:hover {background-color: #0f8b8d}*/
    .button:active {
-     background-color: #0f8b8d;
+     background-color: #5d0f8d;
      box-shadow: 2 2px #CDCDCD;
      transform: translateY(2px);
    }
